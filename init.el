@@ -19,10 +19,12 @@
 (add-to-list 'el-get-recipe-path (locate-user-emacs-file "el-get-user/recipes"))
 (el-get 'sync)
 ;; Make customizations save to custom.el instead of here
-(setq custom-file (locate-user-emacs-file))
+(setq custom-file (locate-user-emacs-file "custom.el"))
 (load custom-file 'noerror)
 ;; Load all my other init files
 (add-to-list 'load-path (locate-user-emacs-file "init"))
+(require 'globals)
+(require 'progs)
 ;; Theme and font
 (load-theme 'monokai t)
 (set-frame-parameter nil 'font "Inconsolata-10")
