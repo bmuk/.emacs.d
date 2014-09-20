@@ -1,0 +1,13 @@
+# Ignore everything
+*
+# Except
+!.gitignore
+!custom.el
+!init
+!init/*
+!init/globals
+!init/globals/*
+!init/progs
+!init/progs/*
+!init.el
+!README.md
