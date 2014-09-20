@@ -7,7 +7,7 @@
 (setq auto-save-file-name-transforms
       `((".*", temporary-file-directory t))
       backup-directory-alist
-      `((".*" . , temporary-file-directory t)))
+      `((".*" . , temporary-file-directory)))
 ;; el-get
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 (unless (require 'el-get nil 'noerror)
