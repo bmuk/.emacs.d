@@ -1,7 +1,6 @@
 (setq my-packages
       '(;; el-get boilerplate
 	el-get
-	auto-complete
 	fuzzy
 	popup
 	;; General
