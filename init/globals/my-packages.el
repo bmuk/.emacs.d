@@ -6,6 +6,8 @@
 	;; General
 	monokai-theme
 	;; Programming Language Specific
+	;; haskell
+	haskell-mode
 	;; lisps
 	paredit
 	;; nix
