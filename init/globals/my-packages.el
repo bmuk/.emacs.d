@@ -8,6 +8,10 @@
 	;; Programming Language Specific
 	;; haskell
 	haskell-mode
+	ghc-mod
+	structured-haskell-mode
+	;; idris
+	idris-mode
 	;; lisps
 	paredit
 	;; nix
