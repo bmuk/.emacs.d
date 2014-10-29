@@ -9,6 +9,11 @@
       backup-directory-alist
       `((".*" . , temporary-file-directory)))
 ;; el-get
+(setq el-get-sources
+      '((:name znc
+               :type github
+               :pkgname "sshirokov/ZNC.el"
+               :description "ERC and ZNC interface")))
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 (unless (require 'el-get nil 'noerror)
   (with-current-buffer

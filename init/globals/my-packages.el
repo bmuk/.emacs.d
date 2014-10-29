@@ -8,8 +8,8 @@
 	;; Programming Language Specific
 	;; haskell
 	haskell-mode
-	ghc-mod
-	structured-haskell-mode
+	;ghc-mod
+	;structured-haskell-mode
 	;; idris
 	idris-mode
 	;; lisps
@@ -19,6 +19,7 @@
 	;; Text Formatting
 	;; markdown
 	markdown-mode
+	yaml-mode
 	;; Programming Tools
 	;; 80 character marker
 	fill-column-indicator
@@ -27,7 +28,9 @@
 	;; better electric-pair
 	autopair
 	;; better terminal
-	;multi-term
+	multi-term
+	;; irc bouncer
+	znc
 	;; Package Tools
 	use-package
 	;; Productivity
